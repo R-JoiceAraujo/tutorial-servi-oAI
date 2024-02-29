@@ -52,10 +52,10 @@ Você precisará provisionar um recurso de **serviços de IA do Azure** que este
 
 ### Carregar documentos para o armazenamento do Azure
 
-1. No painel do menu esquerdo, selecione **Containers **.
+1. No painel do menu esquerdo, selecione **Containers**.
+
+   ![containers](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/media/create-cognitive-search-solution/storage-blob-1.png)
 2. Selecione **+ Contêiner**.
-   
-![containers]()
 3. insira as seguintes configurações e clique em **Criar**:
 
    * **Nome** : Coffee-Reviews
@@ -63,6 +63,7 @@ Você precisará provisionar um recurso de **serviços de IA do Azure** que este
    * **Avançado** : sem alterações .
 
 4. Em uma nova guia do navegador, baixe as [avaliações de café compactadas](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/11-ai-search.html#upload-documents-to-azure-storage:~:text=Em%20uma%20nova,de%20avalia%C3%A7%C3%B5es%20.) em https://aka.ms/mslearn-coffee-reviewse extraia os arquivos para a pasta de avaliações .
+
 5. No portal do Azure, selecione o contêiner de avaliações de café . No contêiner, selecione **Carregar(upload)**.
    
    ![upload-container](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/media/create-cognitive-search-solution/storage-blob-3.png)
